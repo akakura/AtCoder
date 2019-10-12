@@ -6,7 +6,7 @@ def updateline(l, r, N, b):
         if(sum(r[:i]) < b):
             break
         else:
-
+            
 
 def main():
     N, B1, B2, B3 = map(int,input().split())
