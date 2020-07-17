@@ -1,8 +1,6 @@
-S = input()
+A, B = map(int,input().split())
 
-if(S=="Sunny"):
-        print("Cloudy")
-elif(S=="Cloudy"):
-        print("Rainy")
+if( (A-2*B)>0):
+        print(A-2*B)
 else:
-        print("Sunny")
+        print(0)
